@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\12.0\CLSID\{e1015179-c603-43d2-97b6-7e3f43fec99b}]
+@="COM+ class: NodeFileGenerator.ProcessNodeFile"
+"InprocServer32"="C:\\WINDOWS\\system32\\mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="NodeFileGenerator.ProcessNodeFile"
+"Assembly"="NodeFileGenerator, Version=1.0.0.0, Culture=Neutral"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\12.0\Generators]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\12.0\Generators\{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\12.0\Generators\{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\\.dll]
+@="NodeFileGenerator"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\12.0\Generators\{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\NodeFileGenerator]
+@="Single File Generator For Node Applications"
+"CLSID"="{e1015179-c603-43d2-97b6-7e3f43fec99b}"
+"GeneratesDesignTimeSource"=dword:00000001
